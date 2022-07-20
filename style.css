@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(27, 24, 24);
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.container-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100%;
+
+    border: 3px solid purple;
+}
+
+.search{
+    width: 100%;
+    height: 10%;
+    background: #fff;
+}
+
+.video{
+    width: 50%;
+    height: 70%;
+    background: #ff0000;
+}
+
+.play-list{
+    width: 40%;
+    height: 80%;
+    background: rgb(92, 89, 89);
+}
+
+.notation{
+    width: 100%;
+    height: 20%;
+    background: #fff;
+}
