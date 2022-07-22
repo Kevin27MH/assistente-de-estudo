@@ -13,8 +13,6 @@ body{
     justify-content: space-between;
     width: 100vw;
     height: 100%;
-
-    border: 3px solid purple;
 }
 
 .search{
@@ -24,15 +22,34 @@ body{
 }
 
 .video{
-    width: 50%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     background: #ff0000;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
 }
 
 .play-list{
     width: 40%;
     height: 80%;
     background: rgb(92, 89, 89);
+}
+
+.list-course{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-course a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .notation{
